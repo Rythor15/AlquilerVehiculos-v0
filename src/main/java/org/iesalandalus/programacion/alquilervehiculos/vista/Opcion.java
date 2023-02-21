@@ -15,7 +15,7 @@ public enum Opcion {
 	private String texto;
 
 	private Opcion(String texto) {
-
+		this.texto = texto;
 	}
 	private boolean esOrdinalValido(int ordinal) {
 		boolean ordinalValido = true;
