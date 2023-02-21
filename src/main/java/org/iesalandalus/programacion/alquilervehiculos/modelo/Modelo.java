@@ -65,27 +65,21 @@ public class Modelo {
 	}
 
 	public Cliente buscar(Cliente cliente) {
-		if (cliente == null) {
-			throw new NullPointerException("");
-		}
+		
 		clientes.buscar(cliente);
 		return new Cliente(cliente);
 
 	}
 
 	public Turismo buscar(Turismo turismo) {
-		if (turismo == null) {
-			throw new NullPointerException("");
-		}
+		
 		turismos.buscar(turismo);
 		return new Turismo(turismo);
 
 	}
 
 	public Alquiler buscar(Alquiler alquiler) {
-		if (alquiler == null) {
-			throw new NullPointerException("");
-		}
+		
 		alquileres.buscar(alquiler);
 		return new Alquiler(alquiler);
 	}
